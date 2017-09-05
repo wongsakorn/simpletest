@@ -56,6 +56,13 @@ public class ExerciseSteps {
         driver.findElement(By.cssSelector(".btn-danger")).click();
     }
 
+    @When("^I click remove user icon by user name (\\S*)$")
+    public void clickRemoveUserIconByUserName(String userName) throws Throwable {
+        List<WebElement> deleteBtn = driver.findElements(By.xpath(".//tbody/tr/td[text()='" + userName + "']/../td[2]/button"));
+        Assert.assertFalse("There should be '" + userName + "' in table.",deleteBtn.size() == 0);
+        deleteBtn.get(0).click();
+    }
+
     @When("^I add new user name (\\S*) with password (\\S*)$")
     public void addNewUserAndPass(String userName, String password) throws Throwable {
 

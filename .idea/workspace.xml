@@ -14,11 +14,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exercise.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Exercise.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/Exercise.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="-88">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExerciseSteps.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ExerciseSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/bdd/steps/ExerciseSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-193">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="108">
+              <caret line="61" column="62" lean-forward="false" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,8 @@
       <file leaf-file-name="RunExerciseTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/bdd/runner/RunExerciseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="180">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -301,30 +301,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.RunExerciseTest">
-    <configuration default="false" name="Feature: exercise" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/cucumber/exercise.feature" />
-      <option name="GLUE" value="com.czeczotka.bdd.steps" />
-      <option name="myNameFilter" value="" />
-      <option name="myGeneratedName" value="Feature: exercise" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BasicTestCompany" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="Feature: Exercise" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -413,6 +389,30 @@
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Admin login and add new user$&quot;" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="simple-test" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Scenario: Admin login and remove user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/cucumber/Exercise.feature" />
+      <option name="GLUE" value="com.exercise.bdd.steps" />
+      <option name="myNameFilter" value="^Admin login and remove user$" />
+      <option name="myGeneratedName" value="Scenario: Admin login and remove user" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Admin login and remove user$&quot;" />
       <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -660,19 +660,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: exercise" />
-      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise" />
-      <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise (1)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RunExerciseTest" />
-      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and add new user" />
+      <item index="0" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise" />
+      <item index="1" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.RunExerciseTest" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and add new user" />
+      <item index="4" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and remove user" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.RunExerciseTest" />
-        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and add new user" />
+        <item index="1" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and remove user" />
         <item index="2" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise" />
-        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: exercise" />
+        <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: Admin login and add new user" />
+        <item index="4" class="java.lang.String" itemvalue="Cucumber java.Feature: Exercise" />
       </list>
     </recent_temporary>
   </component>
@@ -693,34 +693,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunExerciseTest - 2017.09.05 at 08h 35m 11s.xml">
-      <configuration name="RunExerciseTest" configurationId="JUnit" />
+    <history-entry file="Feature__Exercise_(1) - 2017.09.06 at 00h 54m 47s.xml">
+      <configuration name="Feature: Exercise (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="RunExerciseTest - 2017.09.05 at 23h 32m 33s.xml">
-      <configuration name="RunExerciseTest" configurationId="JUnit" />
+    <history-entry file="Feature__Exercise_(1) - 2017.09.06 at 00h 59m 34s.xml">
+      <configuration name="Feature: Exercise (1)" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="RunExerciseTest - 2017.09.06 at 00h 43m 42s.xml">
+      <configuration name="RunExerciseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RunExerciseTest - 2017.09.06 at 01h 00m 55s.xml">
       <configuration name="RunExerciseTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Scenario__Admin_login_and_add_new_user - 2017.09.06 at 00h 39m 26s.xml">
       <configuration name="Scenario: Admin login and add new user" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 02h 08m 44s.xml">
-      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 08h 25m 18s.xml">
-      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 08h 25m 30s.xml">
-      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 08h 26m 07s.xml">
-      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 08h 26m 48s.xml">
       <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.05 at 08h 27m 40s.xml">
+      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.06 at 00h 55m 12s.xml">
+      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.06 at 00h 58m 10s.xml">
+      <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Admin_login_and_remove_user - 2017.09.06 at 01h 00m 24s.xml">
       <configuration name="Scenario: Admin login and remove user" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -961,26 +961,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/bdd/steps/ExerciseSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="61" column="62" lean-forward="false" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/bdd/runner/RunExerciseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/cucumber/Exercise.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/exercise/bdd/steps/ExerciseSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="-88">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
