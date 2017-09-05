@@ -33,7 +33,7 @@ formatter.match({
   "location": "ExerciseSteps.navigateTologinPage()"
 });
 formatter.result({
-  "duration": 6773002332,
+  "duration": 5028359738,
   "status": "passed"
 });
 formatter.match({
@@ -50,7 +50,7 @@ formatter.match({
   "location": "ExerciseSteps.loginWithUsernameAndPassword(String,String)"
 });
 formatter.result({
-  "duration": 703206481,
+  "duration": 578110374,
   "status": "passed"
 });
 formatter.match({
@@ -63,14 +63,14 @@ formatter.match({
   "location": "ExerciseSteps.verifyUserListTableWithUsers(int)"
 });
 formatter.result({
-  "duration": 45995592,
+  "duration": 105811275,
   "status": "passed"
 });
 formatter.scenario({
   "line": 11,
-  "name": "Admin login and remove user",
+  "name": "Admin login and add new user",
   "description": "",
-  "id": "exercise---login;admin-login-and-remove-user",
+  "id": "exercise---login;admin-login-and-add-new-user",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -86,19 +86,19 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "I click remove user icon",
+  "name": "I add new user name win with password 1234",
   "keyword": "And "
 });
 formatter.step({
   "line": 15,
-  "name": "I should see user list table with 0 user",
+  "name": "I should see user list table with 2 user",
   "keyword": "Then "
 });
 formatter.match({
   "location": "ExerciseSteps.navigateTologinPage()"
 });
 formatter.result({
-  "duration": 3871457565,
+  "duration": 3358369574,
   "status": "passed"
 });
 formatter.match({
@@ -115,14 +115,96 @@ formatter.match({
   "location": "ExerciseSteps.loginWithUsernameAndPassword(String,String)"
 });
 formatter.result({
-  "duration": 597671729,
+  "duration": 562628421,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "win",
+      "offset": 20
+    },
+    {
+      "val": "1234",
+      "offset": 38
+    }
+  ],
+  "location": "ExerciseSteps.addNewUserAndPass(String,String)"
+});
+formatter.result({
+  "duration": 343168448,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 34
+    }
+  ],
+  "location": "ExerciseSteps.verifyUserListTableWithUsers(int)"
+});
+formatter.result({
+  "duration": 36289343,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 17,
+  "name": "Admin login and remove user",
+  "description": "",
+  "id": "exercise---login;admin-login-and-remove-user",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 18,
+  "name": "I am on login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 19,
+  "name": "I login with user name admin and password 1234",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 20,
+  "name": "I click remove user icon",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 21,
+  "name": "I should see user list table with 0 user",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "ExerciseSteps.navigateTologinPage()"
+});
+formatter.result({
+  "duration": 3267031382,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "admin",
+      "offset": 23
+    },
+    {
+      "val": "1234",
+      "offset": 42
+    }
+  ],
+  "location": "ExerciseSteps.loginWithUsernameAndPassword(String,String)"
+});
+formatter.result({
+  "duration": 605452393,
   "status": "passed"
 });
 formatter.match({
   "location": "ExerciseSteps.clickRemoveUserIcon()"
 });
 formatter.result({
-  "duration": 113371383,
+  "duration": 141404095,
   "status": "passed"
 });
 formatter.match({
@@ -135,7 +217,7 @@ formatter.match({
   "location": "ExerciseSteps.verifyUserListTableWithUsers(int)"
 });
 formatter.result({
-  "duration": 40098412,
+  "duration": 48754082,
   "status": "passed"
 });
 });

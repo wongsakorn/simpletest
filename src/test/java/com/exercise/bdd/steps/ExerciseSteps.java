@@ -56,7 +56,18 @@ public class ExerciseSteps {
         driver.findElement(By.cssSelector(".btn-danger")).click();
     }
 
+    @When("^I add new user name (\\S*) with password (\\S*)$")
+    public void addNewUserAndPass(String userName, String password) throws Throwable {
 
+        WebElement userInputBox = driver.findElement(By.cssSelector("input[name='newUserName']"));
+        userInputBox.clear();
+        userInputBox.sendKeys(userName);
 
+        WebElement passInputBox = driver.findElement(By.cssSelector("input[name='newUserPassword']"));
+        passInputBox.clear();
+        passInputBox.sendKeys(password);
+        driver.findElement(By.cssSelector(".btn.btn-primary")).click();
+
+    }
 
 }
